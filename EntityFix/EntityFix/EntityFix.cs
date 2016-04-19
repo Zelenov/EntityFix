@@ -270,7 +270,7 @@ namespace EntityFix
                 var r = interceptionContext.Result as SqlDataReader;
                 if (r != null && r.VisibleFieldCount == 0)  //if data reder is empty — return fixed reader
                 {
-                    interceptionContext.Result = (TResult)Activator.CreateInstance(typeof(EntityFixDataReader), r);
+                    interceptionContext.Result = (TResult)(object)new EntityFixDataReader(r);
                 }
             }
         }
