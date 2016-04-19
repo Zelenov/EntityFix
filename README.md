@@ -34,3 +34,4 @@ Using nuget:
 ```Batchfile
 Install-Package EntityFix
 ```
+or from [https://www.nuget.org/packages/EntityFix](https://www.nuget.org/packages/EntityFix/)
