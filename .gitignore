@@ -1,2 +1,5 @@
 *.nupkg
 bin
+/EntityFix/nuget/lib
+/EntityFix/packages
+obj
