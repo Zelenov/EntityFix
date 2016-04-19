@@ -3,9 +3,12 @@
   <metadata>
     <id>EntityFix</id>
     <version>1.0.0</version>
+    <releaseNotes>No more reflection</releaseNotes>
     <authors>Evgeny Zelenov</authors>
     <owners>Evgeny Zelenov</owners>
     <iconUrl>http://www.gooseinmyshorts.com/images/enityfix/EntityFix.png</iconUrl>
+    <projectUrl>https://github.com/Zelenov/EntityFix</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/Zelenov/EntityFix/master/LICENCE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <title>Entity Fix</title>
     <summary>Fixes EF EntityCommandExecutionException</summary>
@@ -39,7 +42,6 @@ System.Data.Entity.Core.EntityCommandExecutionException: The data reader is inco
 
 Calling EntityFix.Load() once on your application start will fix this bug.
     </description>
-    <releaseNotes>First release</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>EF entity entityframework fix select output stored</tags>
     <dependencies>
