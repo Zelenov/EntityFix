@@ -28,3 +28,9 @@ will throw an exception:
 > System.Data.Entity.Core.EntityCommandExecutionException: The data reader is incompatible with the specified 'xxx.Foo_Result'. A member of the type, 'One', does not have a corresponding column in the data reader with the same name.
 
 Calling **EntityFix.Load()** once on your application start will fix this bug.
+
+#Installing
+Using nuget:
+```Batchfile
+Install-Package EntityFix
+```
